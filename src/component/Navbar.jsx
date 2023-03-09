@@ -24,6 +24,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
@@ -59,6 +64,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
@@ -81,7 +91,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/romain-thomas-b141b5243/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -89,23 +99,23 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://github.com/MonsieurThomas'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#182f7dfc]'>
-            <a
+            <Link to='contact' smooth={true} duration={500}
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
               Email <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/1IIP1wj2s9GI5lh1sYmXBgfLXIFBeFdvu/view?usp=sharing'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
