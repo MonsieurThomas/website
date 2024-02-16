@@ -6,7 +6,7 @@ import RealEst from '../assets/projects/realestate.jpg'
 export const data=[
     {
         id:1,
-        name:"React JS Application",
+        name:"Le site de mon entreprise",
         used: "ReactJs / Vanilla CSS",
         guide: "My own",
         image:AtelierMissor,
@@ -24,7 +24,7 @@ export const data=[
     },
     {
         id:3,
-        name:"React JS Application",
+        name:"Site de E-commerce",
         used: "ReactJs / Vanilla Css",
         guide: "Guide: PedroTech",
         image:SiteMarchand,

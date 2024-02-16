@@ -37,16 +37,16 @@ const Work = () => {
                     <p className="text-l font bold text-white tracking-wider py-4 ">
                         {item.used}
                     </p>
-                    <p className="text-xs font bold text-white tracking-wider ">
+                    {/* <p className="text-xs font bold text-white tracking-wider ">
                         {item.guide}
-                    </p>
+                    </p> */}
                     <div className=" text-center ">
                         {/* eslint-disable-next-line */}
-                        <a href={item.github} target="_blank">
+                        {/* <a href={item.github} target="_blank">
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                             Code
                         </button>
-                        </a>
+                        </a> */}
                         {/* eslint-disable-next-line */}
                         <a href={item.live} target="_blank">
                         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
