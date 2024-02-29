@@ -106,7 +106,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='  https://drive.google.com/file/d/1IIP1wj2s9GI5lh1sYmXBgfLXIFBeFdvu/view'
+              href='  https://drive.google.com/file/d/1te4xXKnRK3hrP5xTMb4EWzBjox2kvk18/view?usp=sharing'
               target='_blank' // Pour ouvrir le lien dans une nouvelle fenêtre/onglet
               rel='noopener noreferrer' // Bonne pratique pour les liens externes
             >
