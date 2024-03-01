@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import { TypeAnimation } from 'react-type-animation';
-import paysage from '../assets/Paysage.jpeg';
+import paysage from '../assets/background/Paysage.jpeg';
 
 
 const Home = () => {
