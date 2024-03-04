@@ -60,6 +60,4 @@ export const data=[
         github:"",
         live:"",
     },
-
-
 ]

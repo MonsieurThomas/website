@@ -39,3 +39,14 @@
     background-clip: text;
     color: transparent;
 }
+
+.link-style {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  /* Effet de grossissement et de flou au survol */
+  .link-style:hover {
+    transform: scale(1.1);
+    /* animation-duration: 0.5; */
+    filter: blur(1px);
+  }
