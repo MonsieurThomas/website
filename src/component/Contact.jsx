@@ -5,7 +5,7 @@ const Contact = () => {
       <div name='contact' className='w-full  bg-[#0a192f] pt-[100px] pb-[50px]'>
        <div className='max-w-[1000px] mx-auto pb-8 px-4'>
             <p className=' text-4xl font-bold inline border-b-4 text-gray-300'>Contact</p>
-            <p className='text-gray-300 pt-8'> Remplissez le formulaire ou envoyez moi un mail - <span className='font-bold'>r.thomas06200@gmail.com</span></p>
+            <p className='text-gray-300 pt-8'> Remplissez le formulaire ou envoyez moi un mail : <span className='font-bold'>r.thomas06200@gmail.com</span></p>
             <p className='text-gray-300 '> Je suis aussi joignable au: <span className='font-bold border-b-2 inline font-sans ml-1'>06 04 18 05 25</span></p>
         </div>
         <div className='flex justify-center items-center pb-4' >
