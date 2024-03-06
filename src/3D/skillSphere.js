@@ -10,16 +10,9 @@ const SphereSkill = ({ position, textureUrl, name, initialRotation = { x: 100, y
   const meshRef = useRef();
   const texture = new TextureLoader().load(textureUrl);
 
-  texture.wrapS = THREE.RepeatWrapping;
-  texture.wrapT = THREE.RepeatWrapping;
-  texture.repeat.set(4,1); 
-
   useEffect(() => {
     if (meshRef.current) {
-      // Appliquer la rotation initiale
       meshRef.current.rotation.x -= 1;
-    //   meshRef.current.rotation.y +=1;
-    //   meshRef.current.rotation.z += 1;
     }
   }, [initialRotation]); 
   
